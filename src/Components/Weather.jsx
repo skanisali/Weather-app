@@ -22,7 +22,9 @@ const Weather = () => {
   useEffect(() => {
     axios
       .get(weatherapi)
-      .then((res) => setTem(res.data))
+      .then((res) =>{
+         setTem(res.data)
+      })
       .catch((err) => console.log(err));
   }, [city, unit]);
 
