@@ -23,6 +23,7 @@ const Weather = () => {
     axios
       .get(weatherapi)
       .then((res) =>{
+        // console.log(res)
          setTem(res.data)
       })
       .catch((err) => console.log(err));
