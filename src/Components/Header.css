@@ -1,0 +1,25 @@
+.header-side {
+  background-color: #ffffffcc;
+   /* background-image: linear-gradient(45deg, #2f4680, #13dcff); */
+  border-radius: 16px;
+  padding: 30px;
+  width: 280px;
+  height: auto;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.header-side h2 {
+  font-size: 26px;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.header-side p {
+  font-size: 16px;
+  line-height: 1.5;
+}
